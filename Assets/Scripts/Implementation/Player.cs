@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private HealthSystem _healthSystem;
-    [SerializeField] private MovementSystem _movementSystem;
+    [SerializeField] public HealthSystem _healthSystem;
+    [SerializeField] public MovementSystem _movementSystem;
 
-    [SerializeField] private BuffHandler _buffHandler;
+    [SerializeField] public BuffHandler _buffHandler;
 
     private void Update()
     {

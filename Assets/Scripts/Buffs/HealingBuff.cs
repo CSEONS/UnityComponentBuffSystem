@@ -20,6 +20,7 @@ public class HealingBuff : Buff<HealthSystem>
     public override void OnUpdate()
     {
         _tickrateTime += Time.deltaTime;
+        _expiredTime += Time.deltaTime;
 
         if (_expiredTime > Duration)
         {

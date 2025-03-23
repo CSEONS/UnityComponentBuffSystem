@@ -15,5 +15,5 @@ MonoBehaviour:
   HealOnTick: 10
   TickRate: 1
   HealValue: 1
-  Duration: 0
+  Duration: 3
   _stackable: 0

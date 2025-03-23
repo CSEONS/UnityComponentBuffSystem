@@ -8,4 +8,9 @@ public class MovementSystem : BuffableComponent
     {
         transform.position += (Vector3)direction * Speed * Time.deltaTime;
     }
+
+    private void FixedUpdate()
+    {
+        Debug.Log(Speed);
+    }
 }
