@@ -16,8 +16,6 @@ public class HealingBuff : Buff<HealthSystem>
 
     private float _tickrateTime;
     private float _expiredTime;
-    public override void OnApplied() { }
-    public override void OnExpired() { }
 
     public override void OnUpdate()
     {
